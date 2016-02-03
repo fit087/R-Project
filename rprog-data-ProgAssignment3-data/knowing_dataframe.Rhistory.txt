@@ -1,0 +1,164 @@
+dir()
+setwd("R-Project")
+setwd("..")
+setwd("Documents/")
+dir()
+setwd("..")
+setwd("R-Project/rprog-data-ProgAssignment3-data/")
+dir()
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+head(outcome)
+ncol(outcome)
+nrow(outcome)
+names(outcome)
+outcome[,  11] <- as.numeric(outcome[, 11])
+hist(outcome[, 11])
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome[state]
+outcome["state"]
+names(outcome)
+outcome["state"]
+outcome[["state"]]
+outcome[["State"]]
+outcome["State"]
+outcome[["State"]]
+outcome["State"]
+outcome[["State"]]
+split(outcome, "TX")
+split(outcome, "State")
+head(split(outcome, "State"))
+str(split(outcome, "State"))
+str(split(outcome[,1:5], "State"))
+split(outcome[,1:5], "State")
+split(outcome[1:100,1:5], "State")
+split(outcome[1:100,1:3], "State")
+?split
+split(outcome[1:100,1:3], "TX")
+outcome[1:5,1:10]
+split(outcome[1:20,1:7], "State")
+split(outcome[1:100,1:7], "State")
+split(outcome[1:100,c(1, 2, 7)], "State")
+split(outcome[1:100,c(2 , 7)], "State")
+outcome[,  "State"] <- as.factor(outcome[, "State"])
+split(outcome[1:100,c(2 , 7)], "State")
+split(outcome[1:100,c(2 , 7)], outcome["State"])
+split(outcome[1:10,c(2 , 7)], outcome["State"])
+str(split(outcome[1:10,c(2 , 7)], outcome["State"]))
+str(split(outcome[1:10,c(2 , 7)], outcome[["State"]]))
+outcome[["Sta", exact = TRUE]]
+outcome[["Sta", exact = FALSE]]
+x <- c(1, NA, 3); y <- c(NA, 3, 4)
+complete.cases(x,y)
+outcome
+error()
+Error()
+stop("Erro: é preciso fornecer uma tabela com dados de   +presença e ausência")
+stop("Erro: é preciso fornecer uma tabela com dados de   +presença e ausência")
+stop("Erro: é preciso fornecer uma tabela com dados de presença e ausência")
+1 in c(1, 5, 3)
+1 == c(1, 5, 3)
+sum(1 == c(1, 5, 3))
+as.logic(sum(1 == c(1, 5, 3)))
+states_list <- unique(care_meas$State)
+states_list <- unique(outcome$State)
+states_list
+if(sum("AL" == states_list))
+{}
+if(sum("AL" == states_list)) {TRUE}
+if(sum("A" == states_list)) {TRUE}
+if(sum(!("A" == states_list))) {TRUE}
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",]
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",17]
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",18]
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",19]
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",20]
+outcome[outcome[,2]=="FORT DUNCAN MEDICAL CENTER",11]
+split(outcome, outcome$State)
+split(outcome[,100], outcome$State)
+split(outcome[,1:100], outcome$State)
+split(outcome[1:100,], outcome$State)
+split(outcome, outcome$State)
+summary(split(outcome, outcome$State))
+split(outcome, outcome$State)["WY"]
+str(split(outcome, outcome$State)["WY"])
+split(outcome, outcome$State)[["WY"]]
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+?switch
+c("heart attack", "heart failure", "pneumonia")
+x <- c("heart attack", "heart failure", "pneumonia")
+x["heart attack"]
+x <- c(heart attack = 1, "heart failure", "pneumonia")
+if("h" == c("h", "j"))
+{TRUE}
+if("h" %==% c("h", "j"))
+{TRUE}
+x
+levels(x)
+as.factor(x)
+factor(x)
+x.f<-factor(x)
+x.f
+x.f[pneumonia]
+x.f["pneumonia"]
+x <- c("heart attack", "heart failure", "pneumonia")
+y <- c(13, 19, 25)
+rbind(x,y)
+y <- c(13, 19, 25)
+names(y) <- c("heart attack", "heart failure", "pneumonia")
+z <- rbind(x, y)
+z
+rm(x)
+rm(y)
+rm(z)
+y <- c(13, 19, 25)
+names(y) <- c("heart attack", "heart failure", "pneumonia")
+y
+y["pneumonia"]
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+state_hospital <- split(outcome, outcome$State)[["TX"]]
+index <- 13
+state_hospital[state_hospital[,index] == min(state_hospital[complete.cases(state_hospital[,index]),index]), 2]
+min(state_hospital[complete.cases(state_hospital[,index]),index])
+state_hospital[complete.cases(state_hospital[,index])
+]
+state_hospital[complete.cases(state_hospital[,index]),13]
+state_hospital[,13]
+complete.cases(state_hospital[,13])
+x<-c(NA, 1, 5, NA)
+complete.cases(x)
+complete.cases(state_hospital[,13])
+state_hospital[,13]
+is.na(state_hospital[,13])
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+class(outcome[,13])
+outcome <- read.csv("outcome-of-care-measures.csv")
+class(outcome[,13])
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+state_hospital[complete.cases(as.numeric(state_hospital[,index])),13]
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+x
+min(x)
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+best("TX", "heart attack")
+x
+which(x, 1)
+which(1, x)
+which(x==1)
+source('~/R-Project/rprog-data-ProgAssignment3-data/best.R')
+which(x==1)
+best("TX", "heart attack")
+best("TX", "heart failure")
+best("MD", "heart attack")
+best("MD", "pneumonia")
+best("MD", "heart attack")
