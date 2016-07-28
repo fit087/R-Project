@@ -7,3 +7,10 @@ In this course you will learn how to program in R and how to use R for effective
 ### Link
  [Coursera R-programming][1]
  [1]:https://www.coursera.org/learn/r-programming
+ 
+ 
+### File Descriptions
+ 
+ File Name | Description
+ ----------|-------------
+ `firstfunction.R`| A custom function, clear screen and clear variables
