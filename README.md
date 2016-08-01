@@ -11,6 +11,7 @@ In this course you will learn how to program in R and how to use R for effective
  
 ### File Descriptions
  
- File Name | Description
- ----------|-------------
- `firstfunction.R`| A custom function, clear screen and clear variables
+ File Name            | Description
+ ----------           |-------------
+ `firstfunction.R`    | A custom function, clear screen and clear variables
+ `2016_01_08_week1.R` |Week 1: Background, Getting Started, and Nuts & Bolts
